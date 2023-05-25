@@ -30,7 +30,8 @@ void init_discord() {
     }
 
     discord::Activity activity{};
-    activity.SetState("File: test.mcdx");
+    //activity.SetState("File: test.mcdx");
+    activity.SetState("In file");
     activity.SetDetails("Editing document");
     activity.GetAssets().SetLargeImage("mathcad_logo");
     activity.SetType(discord::ActivityType::Playing);
