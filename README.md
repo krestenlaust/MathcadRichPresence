@@ -22,29 +22,35 @@ The project was just a fun side-project, so I didn't plan on releasing it, which
 
 Folders / projects:
 - MathcadRichPresencePlugin (main project)
+
 This is the project which compiles the plugin file. It combines the efforts of the other projects, to enable Mathcad Rich Presence.
 
 State: Should compile fine.
 
 - DiscordBasicApplication
+
 This project is simply demonstrating, how the Game Sdk works. It being a console project enabled faster development, instead of waiting for Mathcad to open.
 
 State: Doesn't seem to compile.
 
 - MathcadDemoPlugin
+
 This project is demonstrating use of the Mathcad plugin API. I used it to better understand, how the API works and what it allows.
 
 State: Doesn't seem to compile.
 
 - MathcadDiscordCombinedPlugin
+
 This project combined the Mathcad Plugin (a multiply function specifically) with the Discord rich presence.
 
 State: Should compile fine.
 
 - MathcadRichPresencePluginOld
+
 This project was the original attempt at implementing rich presence.
 
 State: Doesn't seem to compile.
 
 - discord-files (folder)
+
 The discord C/C++ API used by intellisense.
