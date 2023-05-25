@@ -26,7 +26,7 @@ void init_discord() {
 
     if (!state.core) {
         std::cout << "Failed to instantiate Discord!";
-        std::exit(-1);
+        return;
     }
 
     discord::Activity activity{};
