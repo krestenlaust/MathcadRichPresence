@@ -22,7 +22,7 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{1a1c104d-03de-40d2-ae4c-4541fb165042}</ProjectGuid>
-    <RootNamespace>MathcadRichPresencePlugin</RootNamespace>
+    <RootNamespace>MathcadRichPresencePluginOld</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>MathcadRichPresencePluginOld</ProjectName>
   </PropertyGroup>
@@ -91,13 +91,13 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>C:\Program Files\PTC\Mathcad Prime 4.0\Custom Functions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProgramFiles)\PTC\Mathcad Prime 4.0\Custom Functions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalDependencies>C:\Program Files\PTC\Mathcad Prime 4.0\Custom Functions\mcaduser.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(ProgramFiles)\PTC\Mathcad Prime 4.0\Custom Functions\mcaduser.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -110,7 +110,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>C:\Program Files\PTC\Mathcad Prime 4.0\Custom Functions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProgramFiles)\PTC\Mathcad Prime 4.0\Custom Functions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -118,7 +118,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalDependencies>C:\Program Files\PTC\Mathcad Prime 4.0\Custom Functions\mcaduser.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(ProgramFiles)\PTC\Mathcad Prime 4.0\Custom Functions\mcaduser.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -129,13 +129,13 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>"C:\Program Files\PTC\Mathcad Prime 4.0\Custom Functions";%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>"$(ProgramFiles)\PTC\Mathcad Prime 4.0\Custom Functions";%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalDependencies>"C:\Program Files\PTC\Mathcad Prime 4.0\Custom Functions\mcaduser.lib";"C:\Users\kress\source\repos\MathcadRichPresencePlugin\lib\x86_64\discord_game_sdk.dll.lib";%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>"$(ProgramFiles)\PTC\Mathcad Prime 4.0\Custom Functions\mcaduser.lib";"discord_game_sdk.dll.lib";%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -148,7 +148,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>"C:\Program Files\PTC\Mathcad Prime 4.0\Custom Functions";%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>"$(ProgramFiles)\PTC\Mathcad Prime 4.0\Custom Functions";%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -156,7 +156,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalDependencies>"C:\Program Files\PTC\Mathcad Prime 4.0\Custom Functions\mcaduser.lib";"C:\Users\kress\source\repos\MathcadRichPresencePlugin\lib\x86_64\discord_game_sdk.dll.lib";%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>"$(ProgramFiles)\PTC\Mathcad Prime 4.0\Custom Functions\mcaduser.lib";"discord_game_sdk.dll.lib";%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
