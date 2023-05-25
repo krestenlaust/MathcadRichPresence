@@ -78,11 +78,11 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>..\..\..\..\..\Program Files\PTC\Mathcad Prime 4.0\Custom Functions</OutDir>
+    <OutDir>$(ProgramFiles)\PTC\Mathcad Prime 4.0\Custom Functions</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>..\..\..\..\..\Program Files\PTC\Mathcad Prime 4.0\Custom Functions</OutDir>
+    <OutDir>$(ProgramFiles)\PTC\Mathcad Prime 4.0\Custom Functions</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -131,7 +131,7 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalDependencies>"C:\Program Files\PTC\Mathcad Prime 4.0\Custom Functions\mcaduser.lib";"C:\Users\kress\source\repos\MathcadMultiplyPlugin\discord_game_sdk.dll.lib";%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>"$(ProgramFiles)\PTC\Mathcad Prime 4.0\Custom Functions\mcaduser.lib";"discord_game_sdk.dll.lib";%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -151,7 +151,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalDependencies>"C:\Program Files\PTC\Mathcad Prime 4.0\Custom Functions\mcaduser.lib";"C:\Users\kress\source\repos\MathcadMultiplyPlugin\discord_game_sdk.dll.lib";%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>"$(ProgramFiles)\PTC\Mathcad Prime 4.0\Custom Functions\mcaduser.lib";"discord_game_sdk.dll.lib";%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
