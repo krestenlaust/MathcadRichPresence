@@ -21,9 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{0549b152-1992-4c3d-a2f9-c0d3fea1c81c}</ProjectGuid>
+    <ProjectGuid>{A81A0DBF-F1D9-44E7-A505-0C9F5B1B8735}</ProjectGuid>
     <RootNamespace>MathcadPluginThing</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>MathcadDemoPlugin</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

@@ -7,14 +7,16 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathcadMultiplyPlugin", "Ma
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DiscordBasicApplication", "DiscordBasicApplication\DiscordBasicApplication.vcxproj", "{EF2A95C4-DA5B-4314-9BA2-7B5B34AD251C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathcadPluginThing", "MathcadPluginThing\MathcadPluginThing.vcxproj", "{0549B152-1992-4C3D-A2F9-C0D3FEA1C81C}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5295E11A-1A4A-44FE-9F67-5910162C8814}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathcadRichPresencePlugin", "MathcadRichPresencePlugin\MathcadRichPresencePlugin.vcxproj", "{89C8B54A-8551-40FF-8A29-A6A4BB952A0B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathcadRichPresencePluginOld", "MathcadRichPresencePluginOld\MathcadRichPresencePluginOld.vcxproj", "{1A1C104D-03DE-40D2-AE4C-4541FB165042}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathcadDemoPlugin", "MathcadDemoPlugin\MathcadDemoPlugin.vcxproj", "{A81A0DBF-F1D9-44E7-A505-0C9F5B1B8735}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,14 +42,6 @@ Global
 		{EF2A95C4-DA5B-4314-9BA2-7B5B34AD251C}.Release|x64.Build.0 = Release|x64
 		{EF2A95C4-DA5B-4314-9BA2-7B5B34AD251C}.Release|x86.ActiveCfg = Release|Win32
 		{EF2A95C4-DA5B-4314-9BA2-7B5B34AD251C}.Release|x86.Build.0 = Release|Win32
-		{0549B152-1992-4C3D-A2F9-C0D3FEA1C81C}.Debug|x64.ActiveCfg = Debug|x64
-		{0549B152-1992-4C3D-A2F9-C0D3FEA1C81C}.Debug|x64.Build.0 = Debug|x64
-		{0549B152-1992-4C3D-A2F9-C0D3FEA1C81C}.Debug|x86.ActiveCfg = Debug|Win32
-		{0549B152-1992-4C3D-A2F9-C0D3FEA1C81C}.Debug|x86.Build.0 = Debug|Win32
-		{0549B152-1992-4C3D-A2F9-C0D3FEA1C81C}.Release|x64.ActiveCfg = Release|x64
-		{0549B152-1992-4C3D-A2F9-C0D3FEA1C81C}.Release|x64.Build.0 = Release|x64
-		{0549B152-1992-4C3D-A2F9-C0D3FEA1C81C}.Release|x86.ActiveCfg = Release|Win32
-		{0549B152-1992-4C3D-A2F9-C0D3FEA1C81C}.Release|x86.Build.0 = Release|Win32
 		{89C8B54A-8551-40FF-8A29-A6A4BB952A0B}.Debug|x64.ActiveCfg = Debug|x64
 		{89C8B54A-8551-40FF-8A29-A6A4BB952A0B}.Debug|x64.Build.0 = Debug|x64
 		{89C8B54A-8551-40FF-8A29-A6A4BB952A0B}.Debug|x86.ActiveCfg = Debug|Win32
@@ -56,6 +50,22 @@ Global
 		{89C8B54A-8551-40FF-8A29-A6A4BB952A0B}.Release|x64.Build.0 = Release|x64
 		{89C8B54A-8551-40FF-8A29-A6A4BB952A0B}.Release|x86.ActiveCfg = Release|Win32
 		{89C8B54A-8551-40FF-8A29-A6A4BB952A0B}.Release|x86.Build.0 = Release|Win32
+		{1A1C104D-03DE-40D2-AE4C-4541FB165042}.Debug|x64.ActiveCfg = Debug|x64
+		{1A1C104D-03DE-40D2-AE4C-4541FB165042}.Debug|x64.Build.0 = Debug|x64
+		{1A1C104D-03DE-40D2-AE4C-4541FB165042}.Debug|x86.ActiveCfg = Debug|Win32
+		{1A1C104D-03DE-40D2-AE4C-4541FB165042}.Debug|x86.Build.0 = Debug|Win32
+		{1A1C104D-03DE-40D2-AE4C-4541FB165042}.Release|x64.ActiveCfg = Release|x64
+		{1A1C104D-03DE-40D2-AE4C-4541FB165042}.Release|x64.Build.0 = Release|x64
+		{1A1C104D-03DE-40D2-AE4C-4541FB165042}.Release|x86.ActiveCfg = Release|Win32
+		{1A1C104D-03DE-40D2-AE4C-4541FB165042}.Release|x86.Build.0 = Release|Win32
+		{A81A0DBF-F1D9-44E7-A505-0C9F5B1B8735}.Debug|x64.ActiveCfg = Debug|x64
+		{A81A0DBF-F1D9-44E7-A505-0C9F5B1B8735}.Debug|x64.Build.0 = Debug|x64
+		{A81A0DBF-F1D9-44E7-A505-0C9F5B1B8735}.Debug|x86.ActiveCfg = Debug|Win32
+		{A81A0DBF-F1D9-44E7-A505-0C9F5B1B8735}.Debug|x86.Build.0 = Debug|Win32
+		{A81A0DBF-F1D9-44E7-A505-0C9F5B1B8735}.Release|x64.ActiveCfg = Release|x64
+		{A81A0DBF-F1D9-44E7-A505-0C9F5B1B8735}.Release|x64.Build.0 = Release|x64
+		{A81A0DBF-F1D9-44E7-A505-0C9F5B1B8735}.Release|x86.ActiveCfg = Release|Win32
+		{A81A0DBF-F1D9-44E7-A505-0C9F5B1B8735}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
