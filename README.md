@@ -28,6 +28,12 @@ This is the project which compiles the plugin file. It combines the efforts of t
 
 State: Should compile fine.
 
+#### discord-files (folder)
+The discord C/C++ API used by intellisense.
+
+### Legacy projects not in use
+These are demo projects, only left in to show how each API works.
+
 #### DiscordBasicApplication
 This project is simply demonstrating, how the Game Sdk works. It being a console project enabled faster development, instead of waiting for Mathcad to open.
 
@@ -47,6 +53,3 @@ State: Should compile fine.
 This project was the original attempt at implementing rich presence.
 
 State: Doesn't seem to compile.
-
-#### discord-files (folder)
-The discord C/C++ API used by intellisense.
